@@ -30,7 +30,7 @@ def page1():
         st.markdown('1、一键给教室电脑上锁，防止学生课间偷玩电脑')
         st.markdown('2、教师只需拿出手机扫码即可关闭锁机')
         st.markdown('3、显示距离上课时间等小功能')
-        st.image("D:\home\我的网络根据地\Chenyiyi_image1.png")
+        st.image("Chenyiyi_image1.png")
         st.markdown("#### blog")
         st.markdown('[****跳转至项目github主页****](https://github.com/cyyChenYiyi/cyychenyiyi.github.io "项目github主页")')
         st.markdown('基于开源项目Gmeek，实现了blog')
