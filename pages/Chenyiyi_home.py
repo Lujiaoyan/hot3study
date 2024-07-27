@@ -6,7 +6,7 @@ def page1():
     st.title("兴趣推荐")
     st.markdown('开始阅读之前，不妨先听听**我最喜欢的歌曲**吧~')
     # 打开音频文件
-    audio_file = open('D:\home\我的网络根据地\Chenyiyi_music.mp3', 'rb')
+    audio_file = open('Chenyiyi_music.mp3', 'rb')
     audio_bytes = audio_file.read()
 
     # 使用st.audio函数播放音频
