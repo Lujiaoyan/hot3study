@@ -39,7 +39,7 @@ def page1():
         st.markdown('### 总述')
         st.markdown('我热爱阅读文学作品，比较喜欢小说、散文')
         st.markdown('当然也很喜欢科幻文学作品，特别推荐《三体》《流浪地球》')
-        st.image("D:\home\我的网络根据地\Chenyiyi_image2.jpg")
+        st.image("Chenyiyi_image2.jpg")
         st.markdown('书籍是人类进步的阶梯，希望你也能阅读起来！')
     else:
         st.write('请您先选择')
