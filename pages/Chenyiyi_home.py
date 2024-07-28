@@ -14,7 +14,7 @@ def page1():
     st.title("兴趣推荐")
     st.markdown('开始阅读之前，不妨先听听**我最喜欢的歌曲**吧~')
     # 打开音频文件
-    audio_file = open('D:\home\我的网络根据地\Chenyiyi_music.mp3', 'rb')
+    audio_file = open('Chenyiyi_music.mp3', 'rb')
     audio_bytes = audio_file.read()
 
     # 使用st.audio函数播放音频
@@ -33,7 +33,7 @@ def page1():
         st.markdown('1、一键给教室电脑上锁，防止学生课间偷玩电脑')
         st.markdown('2、教师只需拿出手机扫码即可关闭锁机')
         st.markdown('3、显示距离上课时间等小功能')
-        st.image("D:\home\我的网络根据地\Chenyiyi_image1.png")
+        st.image("Chenyiyi_image1.png")
         st.markdown("#### blog")
         st.markdown('[****跳转至项目github主页****](https://github.com/cyyChenYiyi/cyychenyiyi.github.io "项目github主页")')
         st.markdown('基于开源项目Gmeek，实现了blog')
@@ -42,7 +42,7 @@ def page1():
         st.markdown('### 总述')
         st.markdown('我热爱阅读文学作品，比较喜欢小说、散文')
         st.markdown('当然也很喜欢科幻文学作品，特别推荐《三体》《流浪地球》')
-        st.image("D:\home\我的网络根据地\Chenyiyi_image2.jpg")
+        st.image("Chenyiyi_image2.jpg")
         st.markdown('书籍是人类进步的阶梯，希望你也能阅读起来！')
 
 from PIL import Image, ImageEnhance
